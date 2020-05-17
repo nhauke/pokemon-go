@@ -32,9 +32,10 @@ type -> tentacool
 var -> venusaur  
 
 Usage:  
-Convert a Go file to a Pokemon go file: pokemon-go convert <file.go> <file.pgo>  
-Run: pokemon-go run <file.pgo>  
-Help: pokemon-go help  
+Convert a Go file to a Pokemon go file: ./pokemon-go convert <file.go> <file.pgo>  
+Run: ./pokemon-go run <file.pgo>  
+Help: ./pokemon-go help  
 Other go commands should also work with their pokemon-go counterpart  
 As a feature, pokemon-go also accepts and will run most Go files  
 Several test .pgo files have been uploaded in the test directory  
+Tested on MacOS X
